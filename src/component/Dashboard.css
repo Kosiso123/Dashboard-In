@@ -1,0 +1,82 @@
+.dashboard-container{
+    width: 58%;
+    margin: 0 auto;
+    background-color:rgba(255, 0, 212, 0.623);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .paths{
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    
+  }
+  .path:hover{
+    background-color: #f0f0f0;
+  }
+  
+  .active{
+    background-color: #007bff5b;
+    color: #fff;
+    border-radius: 10px;
+
+    
+  }
+  
+  .interns-list{
+    display: grid;
+    grid-template-columns: repeat(auto);
+    gap: 20px;
+  
+  }
+  
+  .intern-item{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* border: 2px solid #ccc; */
+    border-radius: 10px;
+    padding: 10px;
+    gap: 100px;
+  }
+  .intern-item:hover{
+    flex-direction: column;
+    
+  }
+  
+  .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .info{
+    text-align: start;
+  }
+  .info:hover{
+    text-align: center;
+  }
+  
+  .name{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .learning-path{
+     margin-bottom: 5px;
+  }
+  
+  .grades{
+    font-style: italic;
+  }

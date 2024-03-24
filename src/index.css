@@ -1,0 +1,9 @@
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply global styles */
+body {
+  font-family: Arial, sans-serif;
+}
